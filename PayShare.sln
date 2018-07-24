@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2018
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - UI", "1 - UI", "{307C588A-4AA0-4B4E-95D0-9C36F7BAE48B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Domain", "2 - Domain", "{14FD9D17-63B8-4CB9-9808-AB607DD16370}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Infrastructure", "3 - Infrastructure", "{6CC91836-B00E-4B54-A200-1F51F9000058}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PayShare.Domain", "src\PayShare.Domain\PayShare.Domain.csproj", "{AAA1A844-7A7D-4791-9690-652242450652}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AAA1A844-7A7D-4791-9690-652242450652}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAA1A844-7A7D-4791-9690-652242450652}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAA1A844-7A7D-4791-9690-652242450652}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAA1A844-7A7D-4791-9690-652242450652}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AAA1A844-7A7D-4791-9690-652242450652} = {14FD9D17-63B8-4CB9-9808-AB607DD16370}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0467FA99-368F-4D34-BA3E-3DAD73410558}
+	EndGlobalSection
+EndGlobal
